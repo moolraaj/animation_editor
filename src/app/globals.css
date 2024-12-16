@@ -1,0 +1,319 @@
+/* Main container css */
+
+.outer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+canvas.svg-preview-container {
+  width: 100%;
+  
+}
+.choose_file-container label {
+  background: #00215E;
+  border: none;
+  border-radius: 5px;
+  padding: 18px !important;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: 600;
+  width: 85%;
+}
+
+.choose_file-container label:hover {
+  background: #6a6ad6;
+}
+.choose_file-container label:focus {
+  background: #6a6ad6;
+  color: white;
+}
+.right-side-inner img {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.timeline-wrapper.active {
+  border: 1px solid blue!important;
+  transition: all 0.3s ease-in-out;
+  
+}
+.timeline-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.timeline-wrapper p {
+  position: absolute;
+  margin: 0;
+ 
+  right: 0;
+  left: 0;
+  bottom: 8px;
+   
+}
+
+.timeline-wrapper div {
+  margin: 0 0 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.timeline-wrapper {
+  cursor: pointer;
+  position: relative;
+}
+
+
+
+
+.right-side-inner {
+position: relative;
+}
+
+.playhead {
+  transition: left 0.2s ease-in-out;
+}
+.ruler_inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timeline-container {
+  width: 100%;
+  height: 10px;
+ 
+  position: relative;
+  margin-top: 10px;
+}
+
+.timeline-container button {
+  padding: 15px 20px;
+  margin-right: 10px;
+  background: #f49a03e0;
+  border: none;
+  border-radius: 28px;
+}
+.timeline-container button:hover {
+  background: #8989fb;
+  cursor: pointer;
+}
+
+
+body {
+  font-family: 'circular';
+}
+
+canvas.svg-preview-container {
+  height: 500px;
+}
+
+
+
+.svg-container-for-timeline p {
+  text-align: center;
+}
+.leayrs-container button {
+  border-radius: 5px;
+  padding: 14px !important;
+  cursor: pointer;
+  text-transform: capitalize;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+.leayrs-container button:hover {
+  background: #6a6ad6;
+}
+.leayrs-container button:focus {
+  background: #6a6ad6;
+  color: white;
+}
+.timeline_buttons {
+  margin-top: 30px;
+}
+.svg-container-for-timeline .timeline svg {
+  cursor: pointer;
+}
+.svg-container-for-timeline p {
+  text-transform: capitalize;
+}
+
+.layersOuter button {
+  background: #227B94;
+  border: none;
+  color: white !important;
+  border-radius: 5px;
+  padding: 18px !important;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.timeline-container h3 {
+  display: none;
+}
+
+.layersOuter button:hover {
+  background: #6a6ad6;
+}
+.layersOuter button:focus {
+  background: #6a6ad6;
+  color: white;
+}
+
+
+body {
+  font-family: 'circular';
+}
+canvas{
+  border: none!important;
+}
+
+
+
+.choose_file-container label:hover {
+  background: #6a6ad6;
+}
+.choose_file-container label:focus {
+  background: #6a6ad6;
+  color: white;
+}
+
+.active {
+  border: 1px solid green!important;
+}
+.add-and-delete-buttons {
+  display: none;
+}
+.active .add-and-delete-buttons{
+  display: block !important;
+  border: 1px solid green;
+}
+.container{
+  max-width: 1400px;
+  margin: auto;
+}
+
+.svg-thumb-container svg{
+  height: 100%;
+  width: 100%;
+}
+.layers-container button {
+  text-transform: capitalize;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+  font-size: 15px;
+  background: #FFC55A !important;
+}
+.right-side-inner svg {
+  height: 100%;
+  width: 100%;
+}
+
+.play-and-pause-btn{
+  font-size: 35px;
+}
+
+.layers-container > h1 {
+  text-align: center;
+}
+
+.layers-container button:hover {
+  background: #00215E !important;
+  color: white;
+}
+
+.frame-container{
+  display: flex;
+      gap: 10px;
+      box-shadow: 2px 2px 18px #00000026;
+      padding: 15px;
+}
+.right-side {
+  width: 60%;
+}
+.layers-container ul li ul li button {
+  color: #000!important;
+}
+.left-side {
+  width: 20%;
+}
+.leayrs-container{
+  width: 20%;
+}
+.layers-container ul li ul li {
+  overflow: hidden;
+}
+
+  .main-heading {
+    text-align: center;
+  }
+
+  .choose_file-container {
+    margin-bottom:20px ;
+    text-align: center;
+  }
+  
+  .custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-file-upload:hover {
+    background-color: #0056b3;
+  }
+
+  .svg-container-for-timeline svg {
+    width: 200px;
+  }
+  
+  .svg-container-for-timeline {
+    padding: 12px;
+    border: 1px solid #80808059;
+    border-radius: px;
+    margin-top: 0;
+  border-top: unset!important;}
+
+  .choose_file-container input[type="file"] {
+    display: none;
+  }
+  .active{
+    background-color: aliceblue;
+  }
+
+ul {
+  list-style-type: none; 
+  padding-left: 0;
+}
+
+li {
+  margin-left: 0; 
+}
+.flip-context-menu.context-menu ul li {
+  padding: 10px;
+  cursor: pointer;
+}
+.animation-class{
+  background-color: red !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+      .frame-container{
+        flex-direction:column ;
+      }
+      .left-side{
+        width: 100%;
+      }
+      .right-side{
+        width: 100%;
+      }
+}

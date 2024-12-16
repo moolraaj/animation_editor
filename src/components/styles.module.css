@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .animatedSvg {
+    overflow: visible;
+  }
+  
+  .circle {
+    fill: transparent;
+    stroke: #3498db;
+    stroke-width: 5;
+    stroke-dasharray: 188;  
+    stroke-dashoffset: 188;
+    animation: draw 2s linear infinite;
+  }
+  
+  @keyframes draw {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
