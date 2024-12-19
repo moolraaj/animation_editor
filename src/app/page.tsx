@@ -889,6 +889,7 @@ const Page: React.FC = () => {
         <div className="frame-container">
           <div className="left-side">
             <h1 className="main-heading">Upload</h1>
+             
             <div className="choose_file-container">
               <label htmlFor="file-upload" className="custom-file-upload">
                 Upload SVGs
